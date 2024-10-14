@@ -6,7 +6,10 @@ export function ProductSection() {
   return (
     <>
       <section className="product-section">
-        <SectionTitles />
+        <SectionTitles
+          title={"Check Our Products"}
+          secondtitle={"Best quality of life"}
+        />
         <div className="products-container">
           <ProductCard imgpath={"/schuh1.webp"} />
           <ProductCard imgpath={"/schuh2.webp"} />

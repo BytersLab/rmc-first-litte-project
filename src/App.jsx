@@ -1,6 +1,7 @@
 import "./App.css";
 import { Hero } from "./components/Hero/Hero.comp.jsx";
 import { Navbar } from "./components/Navbar/Navbar.comp.jsx";
+import { Newsletter } from "./components/Newsletter/Newsletter.comp.jsx";
 import { ProductSection } from "./components/ProductSection/ProductSection.comp.jsx";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <main>
         <ProductSection />
+        <Newsletter />
       </main>
     </>
   );

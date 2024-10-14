@@ -1,9 +1,9 @@
-export function SectionTitles() {
+export function SectionTitles({ title, secondtitle }) {
   return (
     <>
       <div className="title-section">
-        <h3>Check Our Products</h3>
-        <h4>Best quality of life</h4>
+        <h3>{title}</h3>
+        <h4>{secondtitle}</h4>
       </div>
     </>
   );
