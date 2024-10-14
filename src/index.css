@@ -19,3 +19,35 @@ body {
 .cta {
   background-color: aliceblue;
 }
+
+/* Titles */
+.title-section {
+  text-align: center;
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-weight: 400;
+  }
+}
+
+/* ProductCards */
+
+.product-card {
+  background-color: rgb(17, 17, 17);
+  color: whitesmoke;
+  width: 18.75rem;
+  padding: 1rem;
+  .card-header {
+    margin-bottom: 1rem;
+    img {
+      width: 100%;
+    }
+  }
+  .card-body {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
