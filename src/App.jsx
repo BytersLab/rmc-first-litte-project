@@ -1,4 +1,5 @@
 import "./App.css";
+import { Footer } from "./components/Footer/Footer.comp.jsx";
 import { Hero } from "./components/Hero/Hero.comp.jsx";
 import { Navbar } from "./components/Navbar/Navbar.comp.jsx";
 import { Newsletter } from "./components/Newsletter/Newsletter.comp.jsx";
@@ -13,6 +14,7 @@ function App() {
         <ProductSection />
         <Newsletter />
       </main>
+      <Footer />
     </>
   );
 }
