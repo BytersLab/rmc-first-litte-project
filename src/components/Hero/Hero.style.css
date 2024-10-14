@@ -1,0 +1,12 @@
+.hero-section {
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  .hero-titles {
+    text-align: center;
+  }
+}
