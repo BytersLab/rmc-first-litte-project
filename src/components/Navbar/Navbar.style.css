@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 1rem;
+
+  .nav-part {
+    display: flex;
+    gap: 1rem;
+
+    li {
+      list-style: none;
+    }
+  }
+}
